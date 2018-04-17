@@ -1,0 +1,13 @@
+
+.jumbotron {
+background-image: url(../img/hadron.jpg);
+background-size: auto 100%;
+background-position: center bottom;
+height: 100%;
+min-height: 250px;
+border-bottom: solid green;
+}
+
+.nav {
+  background-color: #343a40;
+}

@@ -1,0 +1,12 @@
+{% extends "upload_dna/header.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="container">
+<h1>You agree to all the things</h1>
+<form action="{% url 'upload:data_add' %}">
+    <input type="submit" value="Agree" />
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+#Genetic data is provided below as five TAB delimited columns.  Each line
+#corresponds to a SNP.  Column one provides the SNP identifier (rsID where
+#possible).  Columns two and three contain the chromosome and basepair position
+#of the SNP using human reference build 37.1 coordinates.  Columns four and five
+#contain the two alleles observed at this SNP (genotype).  The genotype is reported
+#on the forward (+) strand with respect to the human reference.
+rsid	    chromosome	position allele1 allele2
+rs369202065	1	569388	G	G
+rs199476136	1	569400	T	T
+rs190214723	1	693625	T	T
+rs3131972	1	752721	A	G
+rs12562034	1	768448	G	G
+rs115093905	1	787173	G	G
+rs6681049	1	800007	C	C
+rs28444699	1	830181	A	A
+rs4970383	1	838555	C	C
+rs4970382	1	840753	T	C
+rs11516185	1	843405	A	G

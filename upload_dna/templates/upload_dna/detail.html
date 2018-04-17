@@ -1,0 +1,15 @@
+{% extends "upload_dna/header.html" %}
+
+{% block content %}
+        <h5>{{ latest_entry }} loaded successfully</h5>
+
+        <div>
+          {{ data_table|safe }}
+        </div>
+        <!-- <ul>
+        {% for data in all_data %}
+            <h5>{{ data }}</h5>
+        {% endfor %}
+        </ul> -->
+
+{% endblock %}
